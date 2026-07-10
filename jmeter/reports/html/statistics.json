@@ -1,0 +1,50 @@
+{
+  "GET /booking" : {
+    "transaction" : "GET /booking",
+    "sampleCount" : 500,
+    "errorCount" : 20,
+    "errorPct" : 4.0,
+    "meanResTime" : 870.7060000000004,
+    "medianResTime" : 634.0,
+    "minResTime" : 300.0,
+    "maxResTime" : 2806.0,
+    "pct1ResTime" : 1464.1000000000004,
+    "pct2ResTime" : 1777.2999999999997,
+    "pct3ResTime" : 2648.9,
+    "throughput" : 14.195270135990688,
+    "receivedKBytesPerSec" : 483.85190984051616,
+    "sentKBytesPerSec" : 2.2873238012094372
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1000,
+    "errorCount" : 22,
+    "errorPct" : 2.2,
+    "meanResTime" : 639.914,
+    "medianResTime" : 585.0,
+    "minResTime" : 278.0,
+    "maxResTime" : 2806.0,
+    "pct1ResTime" : 1229.8,
+    "pct2ResTime" : 1514.6499999999996,
+    "pct3ResTime" : 2411.5400000000004,
+    "throughput" : 26.582312129509024,
+    "receivedKBytesPerSec" : 462.7486536474255,
+    "sentKBytesPerSec" : 4.244343782397193
+  },
+  "GET /ping" : {
+    "transaction" : "GET /ping",
+    "sampleCount" : 500,
+    "errorCount" : 2,
+    "errorPct" : 0.4,
+    "meanResTime" : 409.12200000000007,
+    "medianResTime" : 300.0,
+    "minResTime" : 278.0,
+    "maxResTime" : 2224.0,
+    "pct1ResTime" : 1107.300000000009,
+    "pct2ResTime" : 1240.6,
+    "pct3ResTime" : 1819.0100000000018,
+    "throughput" : 13.93572842052454,
+    "receivedKBytesPerSec" : 10.184948890716019,
+    "sentKBytesPerSec" : 2.2046757852782966
+  }
+}
